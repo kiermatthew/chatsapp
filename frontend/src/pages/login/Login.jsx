@@ -16,7 +16,7 @@ const Login = () => {
 	return (
 		<div className='flex flex-col items-center justify-center min-w-96 mx-auto'>
 			<div className='w-full p-6 rounded-lg shadow-md bg-white bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10'>
-				<h1 className='text-3xl font-semibold text-center text-gray-300'>
+				<h1 className='text-3xl font-semibold text-center text-white mb-5'>
 					Login to
 					<span className='text-blue-500'> ChatsApp</span>
 				</h1>
@@ -52,7 +52,7 @@ const Login = () => {
 					</Link>
 
 					<div>
-						<button className='btn btn-block btn-sm mt-2 bg-gray-400 text-black hover:text-gray-400' disabled={loading}>
+						<button className='btn btn-block btn-sm mt-2 text-white hover:bg-blue-600' disabled={loading}>
 							{loading ? <span className='loading loading-spinner '></span> : "Login"}
 						</button>
 					</div>
